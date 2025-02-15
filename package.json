@@ -1,18 +1,23 @@
 {
-  "name": "Baileys Bot Api Message",
+  "name": "baileys-bot-api",
   "version": "1.0.0",
-  "description": "Bot de whatsapp con integracion de api.",
+  "description": "Un bot de WhatsApp basado en Baileys con integración de API, ideal para automatizar respuestas, manejar archivos y ejecutar comandos personalizados.",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest"
   },
   "keywords": [
-    "whastapp",
+    "whatsapp",
     "bot",
-    "apis",
-    "api"
+    "api",
+    "baileys",
+    "automatización",
+    "chatbot",
+    "mensajería"
   ],
-  "author": "anonymos",
+  "author": "Anónimo",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/baileys": "^5.0.0",
