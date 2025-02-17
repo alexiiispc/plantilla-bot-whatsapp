@@ -31,11 +31,6 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
    ```bash
    npm install
    ```
-
-3. **Configura las variables de entorno**:
-
-   Crea un archivo `.env` en la raíz del proyecto y añade las variables necesarias, como las credenciales de la API de WhatsApp.
-
 ## Uso
 
 Para iniciar el bot en modo de desarrollo, utiliza:
@@ -45,20 +40,6 @@ npm start
 ```
 
 El bot se ejecutará y estará listo para interactuar a través de WhatsApp.
-
-## Estructura del Proyecto
-
-```plaintext
-plantilla-bot-whatsapp/
-│-- model/        # Definición de los modelos de datos
-│-- api/          # Configuración de las rutas y controladores de la API
-│-- client/       # Cliente para interactuar con la API de WhatsApp
-│-- controller/   # Controladores que manejan la lógica de negocio
-│-- services/     # Servicios auxiliares y utilidades
-│-- .env          # Variables de entorno
-│-- package.json  # Dependencias y configuración del proyecto
-│-- README.md     # Documentación del proyecto
-```
 
 ## Contribuciones
 
