@@ -29,7 +29,7 @@ Sigue estos pasos para configurar el proyecto en tu máquina local:
 2. **Instala las dependencias**:
 
    ```bash
-   npm install
+   npm install --force
    ```
 ## Uso
 
